@@ -7,6 +7,7 @@ class Paper(object):
     desc = attr.ib(type=str, default="")
     extra = attr.ib(type=str, default="")
     rating = attr.ib(type=int, default=0)
+    priority = attr.ib(type=float, default=0.0)
     tags = attr.ib(type=set, factory=set)
     authors = attr.ib(type=list, factory=list)
     arxiv_id = attr.ib(type=str, default="")
@@ -53,5 +54,22 @@ DB = [
                 """,
         rating=9,
         url="https://openreview.net/pdf?id=HkxaFoC9KQ"
-    )
+    ),
+    Paper(
+        title=""
+    ),
+    Paper(
+        title='Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor',
+        desc="""Model-free deep reinforcement learning (RL) algorithms have been demonstrated
+        on a range of challenging decision making and control tasks. However, these
+        methods typically suffer from two major challenges: very high sample complexity
+        and brittle convergence properties, which necessitate meticulous hyperparameter
+        tuning. Both of these challenges severely limit the applicability of such
+        methods to complex, real-world domains. In this paper, we propose soft\nactor-critic, an off-policy actor-critic deep RL algorithm based on the maximum\nentropy reinforcement learning framework. In this framework, the actor aims to\nmaximize expected reward while also maximizing entropy. That is, to succeed at\nthe task while acting as randomly as possible. Prior deep RL methods based on\nthis framework have been formulated as Q-learning methods. By combining\noff-policy updates with a stable stochastic actor-critic formulation, our\nmethod achieves state-of-the-art performance on a range of continuous control\nbenchmark tasks, outperforming prior on-policy and off-policy methods.\nFurthermore, we demonstrate that, in contrast to other off-policy algorithms,\nour approach is very stable, achieving very similar performance across\ndifferent random seeds.""",
+        extra='',
+        priority=0.0,
+        tags=set([]),
+        authors=[u'Tuomas Haarnoja', u'Aurick Zhou', u'Pieter Abbeel', u'Sergey Levine'],
+        # arxiv_id='1801.01290',
+        read=False, url='')
 ]

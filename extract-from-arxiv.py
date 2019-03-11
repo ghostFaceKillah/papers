@@ -19,13 +19,15 @@ def process_all():
         if candidate_id not in arxiv_tags_in_db:
             # try adding
             answer = arxiv.query(id_list=[candidate_id])[0]
-            answer['summary']
 
             resu.append(data.Paper(
+                title=answer['title'],
                 desc=answer['summary'],
                 authors=answer['authors'],
                 arxiv_id=candidate_id
             ))
+
+    pprint.pprint(resu)
 
 
 if __name__ == '__main__':
