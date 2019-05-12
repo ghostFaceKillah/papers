@@ -27,7 +27,7 @@ def process_all():
                 arxiv_id=candidate_id
             ))
 
-    pprint.pprint(resu)
+    print(resu)
 
 
 if __name__ == '__main__':

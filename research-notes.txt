@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+Cool papers from ICLR 2019:
+* How Powerful are Graph Neural Networks?
+* FFJORD: Free-Form Continuous Dynamics for Scalable Reversible Generative Models
+# The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks
+
+* Hierarchical Visuomotor Control of Humanoids
+J
+
+* REASONING ABOUT PHYSICAL INTERACTIONS WITH
+OBJECT-ORIENTED PREDICTION AND PLANNING
+Michael J
+
+Hierarchical Reinforcement Learning via Advantage-Weighted Information Maximization
+
+Contingency-Aware Exploration in Reinforcement Learning
+
+* how does transof
+
+
+PROBABILISTIC PLANNING WITH SEQUENTIAL MONTE CARLO METHODS
+
+
+
+
+
+
+
+
+
+
+How is relational inductive bias expressed in:
+ - the Relational Inductive Bias deep learning?
+ vs
+ - the Graph Network in Relational inductive biases, deep learning, and graph networks
+
+* how does transformer work
+
+
+
+https://openreview.net/pdf?id=rJe10iC5K7
+
+Relevant to my plan ->
+-> Deep reinforcement learning with relational inductive biases
+-> planet RL
+-> UNSUPERVISED DISCOVERY OF PARTS, STRUCTURE, AND DYNAMICS
+https://arxiv.org/search/cs?searchtype=author&query=Riedmiller%2C+M
+
+Run all of these on Montezuma's?
+Learn something for robotic manipulation?
+
+Maximum a Posteriori Policy Optimisation
+
+
+
+
+1. Go through the Levine's lecture from this year
+    1.1 Make digitized notes
+    1.2 Make sure to learn the derivations by heart
+    1.3 Don't forget stuff like policy iteration, etc.
+
+2. Implement all of the homeworks again
+
+3. Implement some tough papers publically
+    3.1 Especially excited about two papers
+        1. planet RL
+        2. Tranformer based attention RL
+           Deep Reinforcement Learning with relational inductive biases
+        3. QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation
+
+
+4. Read through and summarize the older papers about policy gradient
+
+
+What is Guided Policy Search?
+
+
+Probably it is good idea to keep digitzed notes
+
+
+https://www.youtube.com/watch?v=r56AV4I0Ul8
+https://www.youtube.com/watch?v=nXGoU44bqQ4
+
+
+LJ Lin, "reinforcement learning for robots using neural networks, 1993"
+PPO-CMA, variatioal autoencoder within Policy network
+Visual Hindsight Experience Replay
+Universal Planning Networks
+Fast Policy Learning through Imitation and Reinforcement
+QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulationc
+
+https://github.com/StanfordASL/GuSTO.jl
+
+Very cool tutorial on Thompson Sampling.
+https://web.stanford.edu/~bvr/pubs/TS_Tutorial.pdf
+
+
+https://homes.cs.washington.edu/~todorov/papers/TassaIROS12.pdf
+
+Synthesis and Stabilization of Complex Behaviors through
+Online Trajectory Optimization
+
+
+Atari stuff: CONTINGENCY-AWARE EXPLORATION IN REINFORCEMENT LEARNING
