@@ -21,14 +21,12 @@ Hierarchical Reinforcement Learning via Advantage-Weighted Information Maximizat
 
 Contingency-Aware Exploration in Reinforcement Learning
 
-* how does transof
+* how does transformer work
 
 
 PROBABILISTIC PLANNING WITH SEQUENTIAL MONTE CARLO METHODS
 
-
-
-
+http://www.mujoco.org/book/computation.html
 
 
 
